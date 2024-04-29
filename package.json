@@ -1,18 +1,20 @@
 {
   "name": "ProjectX",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
+    "start": "node  server.js",
     "dev": "nodemon server.js ",
     "server": "node server.js"
   },
   "dependencies": {
+    "File": "^0.10.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "expres": "^0.0.5",
     "express": "^4.19.2",
-    "File": "^0.10.2",
     "join": "^3.0.0",
     "mongodb": "^6.5.0",
     "mongoose": "^8.3.2",
